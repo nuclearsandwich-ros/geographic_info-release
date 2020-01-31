@@ -1,0 +1,12 @@
+Source: ros-turbulent-geographic-msgs
+Section: misc
+Priority: extra
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-geometry-msgs, ros-turbulent-rosidl-default-generators, ros-turbulent-std-msgs, ros-turbulent-unique-identifier-msgs, ros-turbulent-ros-workspace, ros-turbulent-rmw-connext-cpp, ros-turbulent-rmw-fastrtps-cpp, ros-turbulent-rmw-implementation, ros-turbulent-rmw-opensplice-cpp, ros-turbulent-rosidl-typesupport-connext-c, ros-turbulent-rosidl-typesupport-connext-cpp, ros-turbulent-rosidl-typesupport-opensplice-c, ros-turbulent-rosidl-typesupport-opensplice-cpp
+Homepage: http://wiki.ros.org/geographic_msgs
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-geographic-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-geometry-msgs, ros-turbulent-rosidl-default-runtime, ros-turbulent-std-msgs, ros-turbulent-unique-identifier-msgs, ros-turbulent-ros-workspace
+Description: ROS messages for Geographic Information Systems.
