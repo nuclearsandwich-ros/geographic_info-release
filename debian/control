@@ -1,0 +1,12 @@
+Source: ros-turbulent-geodesy
+Section: misc
+Priority: extra
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python-catkin-pkg, python-pyproj, ros-turbulent-ament-cmake, ros-turbulent-angles, ros-turbulent-geographic-msgs, ros-turbulent-geometry-msgs, ros-turbulent-sensor-msgs, ros-turbulent-unique-identifier-msgs, ros-turbulent-ros-workspace
+Homepage: http://wiki.ros.org/geodesy
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-geodesy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-pyproj, ros-turbulent-angles, ros-turbulent-geographic-msgs, ros-turbulent-geometry-msgs, ros-turbulent-sensor-msgs, ros-turbulent-unique-identifier-msgs, ros-turbulent-ros-workspace
+Description: Python and C++ interfaces for manipulating geodetic coordinates.
