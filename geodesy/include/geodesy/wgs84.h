@@ -1,5 +1,5 @@
 /* -*- mode: C++ -*- */
-/* $Id: cce7d1c33c69959d60e7451df9e6aae2822d4d8e $ */
+/* $Id$ */
 
 /*********************************************************************
 * Software License Agreement (BSD License)
