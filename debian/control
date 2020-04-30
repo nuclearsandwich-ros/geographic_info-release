@@ -1,0 +1,12 @@
+Source: ros-verystable-geographic-msgs
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-geometry-msgs, ros-verystable-rosidl-default-generators, ros-verystable-std-msgs, ros-verystable-unique-identifier-msgs, ros-verystable-ros-workspace, ros-verystable-rmw-connext-cpp, ros-verystable-rmw-fastrtps-cpp, ros-verystable-rmw-implementation, ros-verystable-rmw-opensplice-cpp, ros-verystable-rosidl-typesupport-connext-c, ros-verystable-rosidl-typesupport-connext-cpp, ros-verystable-rosidl-typesupport-opensplice-c, ros-verystable-rosidl-typesupport-opensplice-cpp
+Homepage: http://wiki.ros.org/geographic_msgs
+Standards-Version: 3.9.2
+
+Package: ros-verystable-geographic-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-geometry-msgs, ros-verystable-rosidl-default-runtime, ros-verystable-std-msgs, ros-verystable-unique-identifier-msgs, ros-verystable-ros-workspace
+Description: ROS messages for Geographic Information Systems.
