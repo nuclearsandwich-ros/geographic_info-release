@@ -1,0 +1,12 @@
+Source: ros-verystable-geodesy
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python-catkin-pkg, python-pyproj, ros-verystable-ament-cmake, ros-verystable-angles, ros-verystable-geographic-msgs, ros-verystable-geometry-msgs, ros-verystable-sensor-msgs, ros-verystable-unique-identifier-msgs, ros-verystable-ros-workspace
+Homepage: http://wiki.ros.org/geodesy
+Standards-Version: 3.9.2
+
+Package: ros-verystable-geodesy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-pyproj, ros-verystable-angles, ros-verystable-geographic-msgs, ros-verystable-geometry-msgs, ros-verystable-sensor-msgs, ros-verystable-unique-identifier-msgs, ros-verystable-ros-workspace
+Description: Python and C++ interfaces for manipulating geodetic coordinates.
