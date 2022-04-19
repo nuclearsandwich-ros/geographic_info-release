@@ -1,1 +1,1 @@
-{"base": "1b86e37", "parent": "debian/rolling/geographic_msgs", "previous": "2a22853", "trim": "", "trimbase": ""}
+{"base": "9ae8d32", "parent": "debian/humble/geographic_msgs", "previous": "1de6472", "trim": "", "trimbase": ""}
